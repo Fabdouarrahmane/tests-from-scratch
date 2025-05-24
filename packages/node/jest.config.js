@@ -12,4 +12,6 @@ module.exports = {
         }
     },
     testMatch: ["**/__tests__/**/*.test.ts"], // où trouver les tests
+    testRunner: "jest-jasmine2",
+    moduleFileExtensions: ['ts', 'tsx', 'js', 'jsx', 'json', 'node']
 };
